@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+
+nav {
+    position: absolute;
+    background-color: gray;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+
+.menu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    padding: 10px ;
+    margin-right: 50px;
+    transition: transform .5s;
+}
+
+.menu:hover{
+     color: black;
+     background-color: white;
+     transform: scale(2);
+}
+
+.contact-form{
+    margin-top: 5%;
+    margin-right: 12%;
+    margin-left: 12%;
+    
+}

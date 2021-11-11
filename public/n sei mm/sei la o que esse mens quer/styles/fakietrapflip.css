@@ -34,10 +34,12 @@ nav {
     display: flex;
     align-items: center;
     padding: 20px 8%;
+    position: sticky;
 }
 
+
 nav .logo {
-    width: 160px;
+    width: 90px;
     cursor: pointer;
 }
 
